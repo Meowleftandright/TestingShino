@@ -1,7 +1,8 @@
 {
-  "name": "魔導書大戰",
-  "title": "魔導書大戰RPG",
-  "description": "魔導書",
+  "name": "shinobigami",
+  "title": "Shinobigami: God of the Ninja",
+  "description": "Shinobigami system",
+  "version": "1.0.1",
   "version": "1.0.1",
   "minimumCoreVersion": "0.8.6",
   "compatibleCoreVersion": "0.8.9",
