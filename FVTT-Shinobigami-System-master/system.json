@@ -30,6 +30,6 @@
   "primaryTokenAttribute": "health",
   "url": "https://github.com/Meowleftandright/TestingShino/tree/main/FVTT-Shinobigami-System-master",
   "manifest": "https://raw.githubusercontent.com/Meowleftandright/TestingShino/main/FVTT-Shinobigami-System-master/system.json",
-  "download": "https://github.com/ksx0330/FVTT-Shinobigami-System/archive/refs/tags/v1.0.1.zip",
+  "download": "https://github.com/Meowleftandright/TestingShino/archive/refs/heads/main.zip",
   "license": "LICENSE.txt"
 }
