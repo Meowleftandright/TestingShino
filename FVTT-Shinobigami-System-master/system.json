@@ -1,12 +1,12 @@
 {
-  "name": "shinobigami",
-  "title": "Shinobigami: God of the Ninja",
-  "description": "Shinobigami system",
-  "version": "1.0.1",
+  "name": "魔導書大戰",
+  "title": "魔導書大戰RPG",
+  "description": "魔導書",
+  "version": "1.0.0",
   "minimumCoreVersion": "0.8.6",
   "compatibleCoreVersion": "0.8.9",
   "templateVersion": 2,
-  "author": "ltaeng",
+  "author": "MeowLeft",
   "esmodules": ["module/init.js"],
   "styles": ["styles/style.css"],
   "packs": [
@@ -27,8 +27,8 @@
   "gridUnits": "ft",
   "socket": true,
   "primaryTokenAttribute": "health",
-  "url": "https://github.com/ksx0330/FVTT-Shinobigami-System",
-  "manifest": "https://raw.githubusercontent.com/ksx0330/FVTT-Shinobigami-System/master/system.json",
+  "url": "https://github.com/Meowleftandright/TestingShino/tree/main/FVTT-Shinobigami-System-master",
+  "manifest": " https://raw.githubusercontent.com/Meowleftandright/TestingShino/main/FVTT-Shinobigami-System-master/system.json ",
   "download": "https://github.com/ksx0330/FVTT-Shinobigami-System/archive/refs/tags/v1.0.1.zip",
   "license": "LICENSE.txt"
 }
