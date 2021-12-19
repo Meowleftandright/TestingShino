@@ -1,0 +1,69 @@
+{
+"Actor": {
+  "types": ["character"],
+  "character": {
+    "health": {
+      "value": 6,
+      "min": 0,
+      "max": 6,
+      "state": [false, false, false, false, false, false]
+    },
+    "talent": {
+        "table":[ 
+            [{"state": false, "num": 12, "stop": false}, {"state": false, "num": 12, "stop": false}, {"state": false, "num": 12, "stop": false}, {"state": false, "num": 12, "stop": false}, {"state": false, "num": 12, "stop": false}, {"state": false, "num": 12, "stop": false}, {"state": false, "num": 12, "stop": false}, {"state": false, "num": 12, "stop": false}, {"state": false, "num": 12, "stop": false}, {"state": false, "num": 12, "stop": false}, {"state": false, "num": 12, "stop": false}],
+            [{"state": false, "num": 12, "stop": false}, {"state": false, "num": 12, "stop": false}, {"state": false, "num": 12, "stop": false}, {"state": false, "num": 12, "stop": false}, {"state": false, "num": 12, "stop": false}, {"state": false, "num": 12, "stop": false}, {"state": false, "num": 12, "stop": false}, {"state": false, "num": 12, "stop": false}, {"state": false, "num": 12, "stop": false}, {"state": false, "num": 12, "stop": false}, {"state": false, "num": 12, "stop": false}], 
+            [{"state": false, "num": 12, "stop": false}, {"state": false, "num": 12, "stop": false}, {"state": false, "num": 12, "stop": false}, {"state": false, "num": 12, "stop": false}, {"state": false, "num": 12, "stop": false}, {"state": false, "num": 12, "stop": false}, {"state": false, "num": 12, "stop": false}, {"state": false, "num": 12, "stop": false}, {"state": false, "num": 12, "stop": false}, {"state": false, "num": 12, "stop": false}, {"state": false, "num": 12, "stop": false}], 
+            [{"state": false, "num": 12, "stop": false}, {"state": false, "num": 12, "stop": false}, {"state": false, "num": 12, "stop": false}, {"state": false, "num": 12, "stop": false}, {"state": false, "num": 12, "stop": false}, {"state": false, "num": 12, "stop": false}, {"state": false, "num": 12, "stop": false}, {"state": false, "num": 12, "stop": false}, {"state": false, "num": 12, "stop": false}, {"state": false, "num": 12, "stop": false}, {"state": false, "num": 12, "stop": false}], 
+            [{"state": false, "num": 12, "stop": false}, {"state": false, "num": 12, "stop": false}, {"state": false, "num": 12, "stop": false}, {"state": false, "num": 12, "stop": false}, {"state": false, "num": 12, "stop": false}, {"state": false, "num": 12, "stop": false}, {"state": false, "num": 12, "stop": false}, {"state": false, "num": 12, "stop": false}, {"state": false, "num": 12, "stop": false}, {"state": false, "num": 12, "stop": false}, {"state": false, "num": 12, "stop": false}], 
+            [{"state": false, "num": 12, "stop": false}, {"state": false, "num": 12, "stop": false}, {"state": false, "num": 12, "stop": false}, {"state": false, "num": 12, "stop": false}, {"state": false, "num": 12, "stop": false}, {"state": false, "num": 12, "stop": false}, {"state": false, "num": 12, "stop": false}, {"state": false, "num": 12, "stop": false}, {"state": false, "num": 12, "stop": false}, {"state": false, "num": 12, "stop": false}, {"state": false, "num": 12, "stop": false}] 
+        ],
+        "gap": [false, false, false, false, false, false],
+        "curiosity": 0,
+        "overflowX": false,
+        "overflowY": false
+    },
+    "details": {
+        "age": "",
+        "sex": "",
+        "agency": "",
+        "grade": "",
+        "purpose": "",
+        "identify": "",
+        "belief": "",
+        "exp": "",
+        "biography": ""
+    }
+  }
+},
+"Item": {
+    "types": ["bond", "ability", "item", "finish", "background"],
+    "bond": {
+        "residence": false,
+        "secret": false,
+        "finish": false,
+        "feeling": "",
+        "description": ""
+    },
+    "ability": {
+        "type": "",
+        "talent": "",
+        "gap": "",
+        "cost": "",
+        "description": ""
+    },
+    "finish": {
+        "type": "",
+        "talent": "",
+        "description": ""
+    },
+    "background": {
+        "type": "pros",
+        "exp": 0,
+        "description": ""
+    },
+    "item": {
+        "description": "",
+        "quantity": 1
+    }
+}
+}

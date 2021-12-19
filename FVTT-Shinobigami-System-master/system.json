@@ -1,0 +1,34 @@
+{
+  "name": "shinobigami",
+  "title": "Shinobigami: God of the Ninja",
+  "description": "Shinobigami system",
+  "version": "1.0.1",
+  "minimumCoreVersion": "0.8.6",
+  "compatibleCoreVersion": "0.8.9",
+  "templateVersion": 2,
+  "author": "ltaeng",
+  "esmodules": ["module/init.js"],
+  "styles": ["styles/style.css"],
+  "packs": [
+    {
+      "label": "Chat Macro",
+      "entity": "Macro",
+      "name": "chat-macro",
+      "path": "./packs/chat-macro.db",
+      "system": "shinobigami"
+    }
+  ],
+  "languages": [
+    { "lang": "en", "name": "English", "path": "lang/en.json" },
+    { "lang": "ko", "name": "한국어", "path": "lang/ko.json" }, 
+    { "lang": "ja", "name": "日本語", "path": "lang/ja.json" }
+  ],
+  "gridDistance": 5,
+  "gridUnits": "ft",
+  "socket": true,
+  "primaryTokenAttribute": "health",
+  "url": "https://github.com/ksx0330/FVTT-Shinobigami-System",
+  "manifest": "https://raw.githubusercontent.com/ksx0330/FVTT-Shinobigami-System/master/system.json",
+  "download": "https://github.com/ksx0330/FVTT-Shinobigami-System/archive/refs/tags/v1.0.1.zip",
+  "license": "LICENSE.txt"
+}
