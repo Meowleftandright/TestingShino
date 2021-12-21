@@ -378,6 +378,7 @@ export class ShinobigamiActorSheet extends ActorSheet {
 
   _getTalentTable() {
     let health = this.actor.data.data.health.state;
+    let tempmana = this.actor.data.data.tempmana.state;
     let table = JSON.parse(JSON.stringify(this.actor.data.data.talent.table));
     let curiosity = this.actor.data.data.talent.curiosity;
     let gap = this.actor.data.data.talent.gap;
